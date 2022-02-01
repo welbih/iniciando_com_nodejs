@@ -1,0 +1,25 @@
+POST http://localhost:4002/products
+content-type: application/json
+
+{
+    "name": "Caneta cabulosa",
+    "price": 8
+}
+
+###
+GET http://localhost:4002/products/b706601a-5911-4681-afb6-1da4cd71ee3b
+
+###
+GET http://localhost:4002/products
+
+###
+PUT http://localhost:4002/products/919d15f1-d287-4017-9156-5ebfb85724af
+content-type: application/json
+
+{
+    "name": "Caderno Sniper",
+    "price": 10
+}
+
+###
+DELETE http://localhost:4002/products/b706601a-5911-4681-afb6-1da4cd71ee3b
